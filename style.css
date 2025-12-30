@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg,#667eea,#764ba2);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box, .portfolio {
+  background: white;
+  padding: 30px;
+  width: 340px;
+  border-radius: 15px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  animation: fade 1s;
+}
+
+@keyframes fade {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+h2, h1 {
+  text-align: center;
+}
+
+.sub {
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background: #667eea;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5a6fdc;
+}
+
+#error, #regError {
+  color: red;
+  font-size: 14px;
+}
+
+.link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.link a {
+  text-decoration: none;
+  color: #667eea;
+}
+
+.profile {
+  width: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+.email {
+  text-align: center;
+  color: #666;
+}
+
+.card {
+  background: #f4f6ff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
